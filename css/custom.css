@@ -1,0 +1,259 @@
+@font-face{font-family:'Jurlique';src:url("../fonts/jurlique.eot");src:url("../fonts/jurlique.eot?#iefix") format("embedded-opentype"),url("../fonts/jurlique.woff") format("woff"),url("../fonts/jurlique.ttf") format("truetype")}
+@font-face{font-family:'AvenirLTStd-Book';src:url("../fonts/2AF282_0_0.eot");src:url("../fonts/2AF282_0_0.eot?#iefix") format("embedded-opentype"),url("../fonts/2AF282_0_0.woff") format("woff"),url("../fonts/2AF282_0_0.ttf") format("truetype")}
+@font-face{font-family:'AvenirLTStd-MediumOblique';src:url("../fonts/2AF282_1_0.eot");src:url("../fonts/2AF282_1_0.eot?#iefix") format("embedded-opentype"),url("../fonts/2AF282_1_0.woff") format("woff"),url("../fonts/2AF282_1_0.ttf") format("truetype")}
+@font-face{font-family:'AvenirLTStd-Black';src:url("../fonts/2AF282_2_0.eot");src:url("../fonts/2AF282_2_0.eot?#iefix") format("embedded-opentype"),url("../fonts/2AF282_2_0.woff") format("woff"),url("../fonts/2AF282_2_0.ttf") format("truetype")}
+@font-face{font-family:'AvenirLTStd-BookOblique';src:url("../fonts/2AF282_3_0.eot");src:url("../fonts/2AF282_3_0.eot?#iefix") format("embedded-opentype"),url("../fonts/2AF282_3_0.woff") format("woff"),url("../fonts/2AF282_3_0.ttf") format("truetype")}
+@font-face{font-family:'AvenirLTStd-BlackOblique';src:url("../fonts/2AF282_4_0.eot");src:url("../fonts/2AF282_4_0.eot?#iefix") format("embedded-opentype"),url("../fonts/2AF282_4_0.woff") format("woff"),url("../fonts/2AF282_4_0.ttf") format("truetype")}
+@font-face{font-family:'AvenirLTStd-Medium';src:url("../fonts/2AF282_5_0.eot");src:url("../fonts/2AF282_5_0.eot?#iefix") format("embedded-opentype"),url("../fonts/2AF282_5_0.woff") format("woff"),url("../fonts/2AF282_5_0.ttf") format("truetype")}
+@font-face{font-family:'AvenirLTStd-Light';src:url("../fonts/2AF282_6_0.eot");src:url("../fonts/2AF282_6_0.eot?#iefix") format("embedded-opentype"),url("../fonts/2AF282_6_0.woff") format("woff"),url("../fonts/2AF282_6_0.ttf") format("truetype")}
+@font-face{font-family:'AvenirLTStd-Oblique';src:url("../fonts/2AF282_7_0.eot");src:url("../fonts/2AF282_7_0.eot?#iefix") format("embedded-opentype"),url("../fonts/2AF282_7_0.woff") format("woff"),url("../fonts/2AF282_7_0.ttf") format("truetype")}
+@font-face{font-family:'AvenirLTStd-Roman';src:url("../fonts/2AF282_8_0.eot");src:url("../fonts/2AF282_8_0.eot?#iefix") format("embedded-opentype"),url("../fonts/2AF282_8_0.woff") format("woff"),url("../fonts/2AF282_8_0.ttf") format("truetype")}
+@font-face{font-family:'AvenirLTStd-HeavyOblique';src:url("../fonts/2AF282_9_0.eot");src:url("../fonts/2AF282_9_0.eot?#iefix") format("embedded-opentype"),url("../fonts/2AF282_9_0.woff") format("woff"),url("../fonts/2AF282_9_0.ttf") format("truetype")}
+@font-face{font-family:'AvenirLTStd-LightOblique';src:url("../fonts/2AF282_A_0.eot");src:url("../fonts/2AF282_A_0.eot?#iefix") format("embedded-opentype"),url("../fonts/2AF282_A_0.woff") format("woff"),url("../fonts/2AF282_A_0.ttf") format("truetype")}
+@font-face{font-family:'AvenirLTStd-Heavy';src:url("../fonts/2AF282_B_0.eot");src:url("../fonts/2AF282_B_0.eot?#iefix") format("embedded-opentype"),url("../fonts/2AF282_B_0.woff") format("woff"),url("../fonts/2AF282_B_0.ttf") format("truetype")}
+@font-face{font-family:'PraxisLTPro-Light';src:url("../fonts/2AE638_0_0.eot");src:url("../fonts/2AE638_0_0.eot?#iefix") format("embedded-opentype"),url("../fonts/2AE638_0_0.woff") format("woff"),url("../fonts/2AE638_0_0.ttf") format("truetype")}
+
+
+
+a {
+    color: #989898;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+}
+a:hover {
+    color: #fff;
+}
+@media only screen and (min-width: 1170px) {
+    .cd-nav-gallery li {
+        width: 29.33% !important;
+        margin-bottom: 0px !important;
+    }
+}
+@media only screen and (min-width: 1460px) {
+    .cd-primary-nav {
+        padding: 0 10% 0 0;
+    }
+}
+@media only screen and (max-width: 1169px) {
+    .has-children > a::before,
+    .has-children > a::after,
+    .go-back a::before,
+    .go-back a::after {
+        margin-top: 0px;
+    }
+}
+.cd-main-content {
+    background: #fff;
+    margin-top: -80px;
+}
+.container {
+    width: 100%;
+    overflow: auto;
+}
+/********************************
+*             Slider              *
+*********************************/
+
+#slideshow {
+    margin: auto;
+    position: relative;
+    width: 100%;
+}
+#slideshow > div {
+    /*background-color: rgba(0, 0, 0, 0.2);*/
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+#slideshow >div img {
+    width: 100%;
+    height: auto;
+}
+/********************************
+*             Home              *
+*********************************/
+
+.container.home {
+    padding: 25px;
+    background: #fff;
+}
+.container.home.title {
+    padding-left: 90px;
+    padding-bottom: 0;
+}
+.container.home h2 {
+    text-align: center;
+    padding: 70px 215px 3px 0;
+    font-size: 120%;
+    font-family:'AvenirLTStd-Heavy';
+    text-transform: uppercase;
+    color: #666666;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 13px;
+    font-weight: 700;
+}
+@media (max-width: 600px) {
+	.container.home h2 {
+	    text-align: center;
+	    padding: 30px 215px 3px 0;
+	    font-size: 120%;
+	    font-family:'AvenirLTStd-Heavy';
+	    text-transform: uppercase;
+	    color: #666666;
+	    margin-left: auto;
+	    margin-right: auto;
+	    letter-spacing: 13px;
+	    font-weight: 700;
+	}
+}
+.container.home div.underline {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 230px;
+}
+.container.home hr {
+    box-sizing: none;
+    -webkit-box-sizing: none;
+    border-style: none;
+    border-width: 0px;
+}
+.container.home hr.left {
+    float: left;
+    width: 95px;
+    height: 4px;
+    background: #34303a;
+}
+.container.home hr.right {
+    float: left;
+    width: 95px;
+    height: 4px;
+    background: #88c72a;
+}
+.container.home div.service {
+		margin-top:20px;
+    text-align: center;
+    color: #bbbec1;
+    font-size: 90%;
+    width: 17.3%;
+    float: left;
+    padding: 0 20px 70px 20px;
+}
+.container.home div.service img {
+    width: 63.4%;
+    height: auto;
+}
+.container.home div.service h4 {
+		font-family: 'AvenirLTStd-Roman';
+	  margin-top: 15px;
+	  margin-bottom: 5px;
+    letter-spacing: 0.5px;
+    color: #666666;
+    font-size: 110%;
+}
+
+.container.home div.s_text {
+    /*width: 75%;
+		font-weight:bold;
+    font-family:'AvenirLTStd-Roman';*/
+    font-family:'AvenirLTStd-Heavy';
+	  margin-left: 30px;
+	  margin-right: 30px;
+    text-align:center;
+    line-height: 150%;
+    color: #8d8d8d;
+    font-size: 90%;
+}
+
+.container.home div.service.first {
+    width: 10%;
+}
+.container.home div.service.last {
+    width: 20.8%;
+}
+.container.home h4 {
+    color: #666666;
+    padding: 5px 0 5px 0;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+/*********************************
+*             Footer             *
+*********************************/
+
+.container.footer {
+    padding: 25px 0 50px 0;
+    background: #000000;
+    text-transform: uppercase;
+    font-size: 80%;
+}
+.container.footer div.item {
+    width: 17.5%;
+    padding-left: 1.5%;
+    float: left;
+    color: #989898;
+    line-height: 2em;
+}
+.container.footer div.item.first {
+    width: 29%;
+    padding-left: 15%;
+}
+.container.footer div.item.second {
+    width: 17.5%;
+}
+.container.footer div.item.third {
+    width: 24%;
+}
+.container.footer div.item.last {
+    width: 13.3%;
+}
+.container.footer div.item.last i {
+		margin-bottom: 10px;
+}
+.container.footer div.item h5 {
+		font-family: 'AvenirLTStd-Roman';
+    color: #fff;
+    font-weight: 700;
+    padding-bottom: 13px;
+}
+.container.footer div.item i.fa {
+    font-size: 24px;
+    border: 2px solid #989898;
+    border-radius: 30px;
+}
+.container.footer div.item i.fa.fa-facebook {
+    padding: 12px 16px 12px 16px;
+}
+.container.footer div.item i.fa.fa-linkedin {
+    padding: 12px 14px 12px 14px;
+}
+.container.footer div.item i.fa.fa-facebook:hover,
+.container.footer div.item i.fa.fa-linkedin:hover {
+    border-color: #fff;
+}
+
+
+
+/* font lists */
+.view_Jurlique { font-family:'Jurlique';}
+.view_AvenirLTStd-Book { font-family:'AvenirLTStd-Book';}
+.view_AvenirLTStd-MediumOblique { font-family:'AvenirLTStd-MediumOblique';}
+.view_AvenirLTStd-Black { font-family:'AvenirLTStd-Black';}
+.view_AvenirLTStd-BookOblique { font-family:'AvenirLTStd-BookOblique';}
+.view_AvenirLTStd-BlackOblique { font-family:'AvenirLTStd-BlackOblique';}
+.view_AvenirLTStd-Medium { font-family:'AvenirLTStd-Medium';}
+.view_AvenirLTStd-Light { font-family:'AvenirLTStd-Light';}
+.view_AvenirLTStd-Oblique { font-family:'AvenirLTStd-Oblique';}
+.view_AvenirLTStd-Roman { font-family:'AvenirLTStd-Roman';}
+.view_AvenirLTStd-HeavyOblique { font-family:'AvenirLTStd-HeavyOblique';}
+.view_AvenirLTStd-LightOblique { font-family:'AvenirLTStd-LightOblique';}
+.view_AvenirLTStd-Heavy { font-family:'AvenirLTStd-Heavy';}
+.view_AvenirLTStd-Light { font-family:'AvenirLTStd-Light';}
